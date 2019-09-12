@@ -109,7 +109,7 @@ router.delete('/contacts/:id', requireToken, (req, res, next) => {
     .then(handle404)
     .then(contact => {
       // throw an error if current user doesn't own `contact`
-      requireOwnership(req, contact)
+      // requireOwnership(req, contact)
       // delete the contact ONLY IF the above didn't throw
       contact.remove()
     })

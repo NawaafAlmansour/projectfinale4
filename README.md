@@ -64,11 +64,7 @@ Run server
 
 ### Stretch Goals
 * Use more than 1 API [✓]
-* Save data to localstorage or firebase api (docs) with React (tutorial)
-* Build a Rails API Backend like the Misk API Example.
-* Use a React component library like Ant Design, Bootstrap React, or Material UI. [✓]
-* Use a CSS library like Bootstrap (tutorial). [✓]
-* Add User Sign Up, Sign In, and Sign Out with Firebase and React * Authentication (tutorial), alternative tutorial here (can be very challenging)
+
 
 
 # References:

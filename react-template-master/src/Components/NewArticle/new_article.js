@@ -4,7 +4,6 @@ import { Form,Button } from 'react-bootstrap';
 import { newarticle } from '../../auth/api';
 import { withRouter } from 'react-router-dom'
 
-
 const Message = styled.div`
       .jumbo-text{
         color: #828282;
@@ -26,6 +25,7 @@ class Newarticle extends Component {
 
   onPostArticle = event => {
     event.preventDefault()
+    console.log('post article', this.state)
 
     const {  history } = this.props
 
